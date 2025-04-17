@@ -3,6 +3,8 @@
     font-weight: 400;
     font-style: normal;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 body{
@@ -14,17 +16,59 @@ nav{
     display: flex;  
     justify-content: space-around;
     align-items: center;
-    margin: 0 5px;
+    height: 85px;
+    background-color: rgb(79, 79, 189);
+    
 }
 nav ul li{
     list-style: none;
-    margin: 0 10px;
-    font: 1.5rem
-    ;
+    margin: 0 20px;
+    font: 1.5rem;
+    cursor: pointer;
 }
 
 nav ul{
     display: flex;
     justify-content: center;
+    font-size: 1.2rem;
 }
+
+
+nav .leftSection{
+        margin: 0 -20px;
+        font-size: 1.5rem;
+
+}
+
+nav ul li:hover{
+    color: rgb(49, 49, 126);
+}
+
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+main .leftSection{
+    width: 30%;
+    background-color: red;
+    
+}
+
+main .rightSection{
+    width: 30%;
+    
+}
+
+
+
+
+main img{
+    width: 30%;
+    padding: 73px 900px;
+}
+
+
 
