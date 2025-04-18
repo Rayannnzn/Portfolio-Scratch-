@@ -103,13 +103,76 @@ main .line{
     padding: 0 116px;
     height: 80vh;
 
+
 }
 .secondSection .first{
     height: 2px;
-    
+    display: flex;
     width: 80vw;
     background-color: white;
     margin: 64px 4px;
+}
+
+.secondSection .line{
+    background-color: white;
+    width: 1px;
+    height: 93px;
+    margin: 0 120px;
+    
+}
+
+.secondSection .vertical-title{
+    margin: 95px -20px;
+    
+    
+}
+
+.secondSection .desc{
+    display: flex;
+    color: grey;
+    font-size: small;
+    width: 150px;
+    margin: -81px -25px;
+}
+
+.secondSection .img-top{
+    width: 10px;
+    position: relative;
+    top: -31px;
+    left: -171px;
+}
+
+
+footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-around;
+    background-color: rgb(58, 58, 134);
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer .left{
+    font-size: larger;
+    width: 223px;
+}
+
+footer .rights{
+    display: flex;
+    text-align: center;
+    color: grey;
+    padding: 92px 0;
+}
+
+
+footer ul li:hover{
+    color: rgb(46, 46, 127);
+}
+
+footer ul li{
+    cursor: pointer;
 }
 
 
