@@ -48,17 +48,23 @@ nav ul li:hover{
 .firstSection{
     display: flex;
     justify-content: space-around;
-    margin: 50px 0;
+    margin: 137px 0;
 }
+
+
+
 
 main .leftSection{
     width: 30%;
-    background-color: red;
+    font-size: 3.0rem;
+    padding: 106px 0px;
     
 }
 
 main .rightSection{
-    width: 30%;
+    width: 40%;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -66,8 +72,23 @@ main .rightSection{
 
 
 main img{
-    width: 30%;
-    padding: 73px 900px;
+    width: 525px;
+    margin: 0 168px;
+
+}
+
+.purple{
+    color: rgb(132, 0, 255);
+}
+
+#element{
+    color: rgb(132, 0, 255);
+
+}
+
+ main .line{
+background-color:rgb(72, 72, 128);
+    height: 100vh;
 }
 
 
